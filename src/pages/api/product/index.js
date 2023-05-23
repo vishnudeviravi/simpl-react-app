@@ -9,7 +9,7 @@ export default function handler(req, res) {
   if (typeof brand == "string") {
     brand = [brand];
   }
-
+  a;
   const lowCategory = category && category.map(item => item.toLowerCase());
   const lowBrand = brand && brand.map(item => item.toLowerCase());
 
